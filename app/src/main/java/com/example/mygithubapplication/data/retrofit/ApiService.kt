@@ -12,25 +12,25 @@ import retrofit2.http.Query
 
 interface ApiService{
     @GET("search/users")
-    @Headers("Authorization: Bearer " + BuildConfig.KEY)
+    // @Headers("Authorization: Bearer " + BuildConfig.KEY)
     fun getUser(
         @Query("q") query: String?,
     ): Call<GithubResponse>
 
     @GET("users/{login}")
-    @Headers("Authorization: Bearer " + BuildConfig.KEY)
+    // @Headers("Authorization: Bearer " + BuildConfig.KEY)
     fun getDetailUser(
         @Path("login") login: String
     ): Call<DetailUserResponse>
 
     @GET("users/{login}/followers")
-    @Headers("Authorization: Bearer " + BuildConfig.KEY)
+    // @Headers("Authorization: Bearer " + BuildConfig.KEY)
     fun getFollowers(
         @Path("login") login: String?,
     ): Call<List<ItemsItem>>
 
     @GET("users/{login}/following")
-    @Headers("Authorization: Bearer " + BuildConfig.KEY)
+    // @Headers("Authorization: Bearer " + BuildConfig.KEY)
     fun getFollowings(
         @Path("login") login: String?,
     ): Call<List<ItemsItem>>
