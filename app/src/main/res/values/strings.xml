@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MyGithubApplication</string>
+    <string name="searchbar_hint">Cari User</string>
+    <string name="item_image_desc">image</string>
+    <string name="tv_username_detail">Ini Username</string>
+    <string name="tv_name_detail">Ini Name</string>
+    <string name="tv_followers_count_detail">5</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="name_not_found">user ini belum mengatur nama</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">Follower</string>
+    <string name="tab_text_2">Following</string>
+    <string name="notfound">Data Tidak Ditemukan</string>
+    <string name="searchuser_notfound">User Tidak Ditemukan</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>
